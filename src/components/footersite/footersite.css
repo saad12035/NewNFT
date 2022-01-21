@@ -1,0 +1,16 @@
+.footer-container{
+    background-color: black;
+    overflow: auto;
+    width: auto;
+    height: auto;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+}
+
+
+
+.ant-layout-footer{
+    padding: 0!important;
+}

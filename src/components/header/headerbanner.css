@@ -1,0 +1,38 @@
+.container{
+    overflow: auto;
+    margin: 0;
+}
+.ant-layout-header{
+    padding: 0 !important;
+    background-image: url("../../images/Mask Group 1.png") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.headerlogo{
+    color: white;
+    padding-left: 250px;
+    font-size: 30px;
+}
+
+.button{
+    width: 40%;
+    height: 50%;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+    color: white;
+    background-image: linear-gradient(to right,#C898FF, #78A1FF) !important;
+    border: none;
+}
+
+.button:hover{
+    width: 40%;
+    height: 50%;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+    color: white;
+    background-image: linear-gradient(to right,#C898FF, #78A1FF) !important;
+    border: none;
+}
+
