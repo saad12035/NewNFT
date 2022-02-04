@@ -10,6 +10,8 @@ function Home(){
       <Layout>
         <div className="test">
           <Header style={{ position: 'sticky', margin:'0', width: '100%' }}><HeaderBanner/></Header>
+          <br/>
+          <br/>
           <Content><ContextBody/></Content>
         </div>
         <Footer><FooterSite/></Footer>

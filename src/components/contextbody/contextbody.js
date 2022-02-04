@@ -6,19 +6,22 @@ import BodyItems from "../bodyitems/bodyitems";
 
 function ContextBody() {
   return (
-      <div className='container-body'>
+      <div className='container-body1'>
         <Row>
-          <Col span={13}>
-            <BannerCalculations/>
-          </Col>
-          <Col span={11}>
+          <Col span={5}/>
+          <Col span={7}>
             <div className='image-css'>
               <Image
                   style={{borderRadius:50}}
-                  src={require('../../images/148.png')}
+                  src={require('../../images/Attachment_1643985288.gif')}
               />
             </div>
           </Col>
+          <Col span={10}>
+            <BannerCalculations/>
+          </Col>
+          <Col span={2}/>
+
         </Row>
         <Row>
           <Col span={24}>

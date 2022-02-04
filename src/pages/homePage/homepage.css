@@ -1,5 +1,5 @@
 .test{
-    background-image: url("../../images/Mask Group 1.png") !important;
+    background-image: url("../../images/abstract.jpg")!important;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }

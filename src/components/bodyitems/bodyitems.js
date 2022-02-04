@@ -40,28 +40,22 @@ function BodyItems() {
        <Row>
          <Col span={24}>
            <h1 className='header2'>
-             Explore More
+             Magazine
            </h1>
          </Col>
        </Row>
-       <div style={{marginRight:50,paddingBottom:50}}>
-       <Row gutter={[0,18]}>
-           {myArray.map(({image}) => {
-             return (
-                 <Col span={6} offset={2}>
-                   <Items data={image}/>
-                 </Col>
-             );
-           })}
-       </Row>
-       </div>
-       <Row>
-         <Col span={24}>
-           <Button className="body-button1" shape="round"  >
-             Load More
-           </Button>
-         </Col>
-       </Row>
+       {/*<div style={{marginRight:50,paddingBottom:50}}>*/}
+       {/*<Row gutter={[0,18]}>*/}
+       {/*    {myArray.map(({image}) => {*/}
+       {/*      return (*/}
+       {/*          <Col span={6} offset={2}>*/}
+       {/*            <Items data={image}/>*/}
+       {/*          </Col>*/}
+       {/*      );*/}
+       {/*    })}*/}
+       {/*</Row>*/}
+       {/*</div>*/}
+
 
 
      </div>
