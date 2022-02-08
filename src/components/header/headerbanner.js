@@ -6,20 +6,27 @@ function HeaderBanner(){
   return(
      <div className="container">
        <Row>
-         <Col span={8}><div className="headerlogo">
-           <Image
-               style={{height:140}}
+         <Col span={6}><div className="headerlogo">
+           <Image style={{height:200,width:300}}
                src={require('../../images/Attachment_1643985080.png')}
            />
          </div></Col>
-         <Col span={8} offset={8}>
-           <Button className="button" shape="round"  style={{height:50}} >
+         <Col span={12}>
+           <div className="header_title">
+             <h1>PRIVATE SALE EVENT</h1>
+           </div>
+         </Col>
+         <Col span={3}>
+           <Button className="button"  style={{height:30}} >
              Connect Wallet
            </Button>
          </Col>
+         <Col span={3}>
+           <Button className="button"  style={{height:30,width:150}} >
+             Magazine
+           </Button>
+         </Col>
        </Row>
-
-
      </div>
   );
 }
