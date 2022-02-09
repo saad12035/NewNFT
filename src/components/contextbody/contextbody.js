@@ -57,21 +57,13 @@ function ContextBody() {
               10,000
               </h1>
               <h4 style={{color:"white",marginTop:-10}}>
-              NFT Membership Cards
+              NFT Membership
               </h4>
             </div>
             <div className="promotion">
               <h1 style={{fontWeight:"bold",fontSize:30}}>
-                0.07 ETH
+                0.06 ETH
               </h1>
-            </div>
-            <div className="promotion">
-              <h1 style={{fontWeight:"bold",fontSize:30}}>
-                9850
-              </h1>
-              <h4 style={{color:"white",marginTop:-10}}>
-                Potential Options
-              </h4>
             </div>
           </Col>
           <Col span={2}/>

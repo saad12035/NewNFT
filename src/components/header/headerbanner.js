@@ -13,7 +13,7 @@ function HeaderBanner(){
          </div></Col>
          <Col span={12}>
            <div className="header_title">
-             <h1>PRIVATE SALE EVENT</h1>
+             <h1 className="title_color">PRIVATE SALE EVENT</h1>
            </div>
          </Col>
          <Col span={3}>
@@ -23,7 +23,7 @@ function HeaderBanner(){
          </Col>
          <Col span={3}>
            <Button className="button"  style={{height:30,width:150}} >
-             Magazine
+             Warehouse
            </Button>
          </Col>
        </Row>
