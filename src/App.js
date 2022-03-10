@@ -1,6 +1,6 @@
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 import React from "react";
-import Home from "./pages/homePage/homepage";
+import Home from "./pages/home-page/homepage";
 
 function App() {
   return (
